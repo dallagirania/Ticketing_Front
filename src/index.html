@@ -2,12 +2,145 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Audaxis</title>
+  <title>AUDAXIS</title>
   <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
+    <!-- All Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="DexignLab">
+	<meta name="robots" content="">
+	<meta name="keywords" content="bootstrap admin, card, clean, credit card, dashboard template, elegant, invoice, modern, money, transaction, Transfer money, user interface, wallet">
+	<meta name="description" content="Dompet is a clean-coded, responsive HTML template that can be easily customised to fit the needs of various credit card and invoice, modern, creative, Transfer money, and other businesses.">
+	<meta property="og:title" content="Dompet - Payment Admin Dashboard Bootstrap Template">
+	<meta property="og:description" content="Dompet is a clean-coded, responsive HTML template that can be easily customised to fit the needs of various credit card and invoice, modern, creative, Transfer money, and other businesses.">
+	<meta property="og:image" content="social-image.png">
+	<meta name="format-detection" content="telephone=no">
+
+	<!-- Mobile Specific -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/png" href="../../../assets/images/icon.png">	
+	
+     <link href="../../../assets/css/style.css" rel="stylesheet">
+     <link href="../../../assets/vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet">
+     <link rel="stylesheet" href="../../../assets/vendor/nouislider/nouislider.min.css">
+     <!-- <link rel="stylesheet" type="text/css" href="../../../assets/icons/flaticon.css"> -->
+     <!-- <link rel="stylesheet" href="../../../assets/css/font-awesome.css"> -->
+	 <link rel="stylesheet" href="../../../assets/vendor/toastr/css/toastr.min.css">
+	 <link href="../../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+	 <link rel="stylesheet" href="../../../assets/vendor/select2/css/select2.min.css">
+	 
+    <!-- Daterange picker -->
+    <link href="../../../assets/vendor/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+    <!-- Clockpicker -->
+    <link href="../../../assets/vendor/clockpicker/css/bootstrap-clockpicker.min.css" rel="stylesheet">
+    <!-- asColorpicker -->
+    <link href="../../../assets/vendor/jquery-asColorPicker/css/asColorPicker.min.css" rel="stylesheet">
+    <!-- Material color picker -->
+    <link href="../../../assets/vendor/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" rel="stylesheet">
+	
+    <!-- Pick date -->
+    <link rel="stylesheet" href="../../../assets/vendor/pickadate/themes/default.css">
+    <link rel="stylesheet" href="../../../assets/vendor/pickadate/themes/default.date.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
 </head>
 <body>
   <app-root></app-root>
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <script src="../../../assets/vendor/global/global.min.js"></script>
+    <script src="../../../assets/js/custom.min.js"></script>
+    <script src="../../../assets/js/dlabnav-init.js"></script>
+	  <script src="../../../assets/vendor/chart-js/chart.bundle.min.js"></script>
+	  <script src="../../../assets/vendor/jquery-nice-select/js/jquery.nice-select.min.js"></script>
+	
+	<!-- Apex Chart -->
+	<script src="../../../assets/vendor/apexchart/apexchart.js"></script>
+	<script src="../../../assets/vendor/nouislider/nouislider.min.js"></script>
+	<script src="../../../assets/vendor/wnumb/wNumb.js"></script>
+	
+	<!-- Dashboard 1 -->
+	<script src="../../../assets/js/dashboard/dashboard-1.js"></script>
+	<script src="../../../assets/js/demo.js"></script>
+   <script src="../../../assets/js/styleSwitcher.js"></script>
+   <script src="../../../assets/vendor/toastr/js/toastr.min.js"></script>
+   <script src="../../../assets/js/plugins-init/toastr-init.js"></script>
+      <!-- Required vendors -->
+	
+
+	  <script src="../../../assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+	  <script src="../../../assets/js/dashboard/cms.js"></script>
+	  
+	  <!-- Ck-editor -->
+	  <script src="../../../assets/vendor/ckeditor/ckeditor.js"></script>
+	  
+	  <!--select plugins-file-->
+	  <script src="../../../assets/vendor/select2/js/select2.full.min.js"></script>
+	  <script src="../../../assets/js/plugins-init/select2-init.js"></script>
+	  <script src="../../../assets/vendor/sweetalert2/dist/sweetalert2.min.js"></script>
+	  <script src="../../../assets/js/plugins-init/sweetalert.init.js"></script>
+
+
+    <!-- Daterangepicker -->
+    <!-- momment js is must -->
+    <script src="../../../assets/vendor/moment/moment.min.js"></script>
+    <script src="../../../assets/vendor/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <!-- clockpicker -->
+    <script src="../../../assets/vendor/clockpicker/js/bootstrap-clockpicker.min.js"></script>
+    <!-- asColorPicker -->
+    <script src="../../../assets/vendor/jquery-asColor/jquery-asColor.min.js"></script>
+    <script src="../../../assets/vendor/jquery-asGradient/jquery-asGradient.min.js"></script>
+    <script src="../../../assets/vendor/jquery-asColorPicker/js/jquery-asColorPicker.min.js"></script>
+    <!-- Material color picker -->
+    <script src="../../../assets/vendor/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
+    <!-- pickdate -->
+    <script src="../../../assets/vendor/pickadate/picker.js"></script>
+    <script src="../../../assets/vendor/pickadate/picker.time.js"></script>
+    <script src="../../../assets/vendor/pickadate/picker.date.js"></script>
+
+
+
+    <!-- Daterangepicker -->
+    <script src="../../../assets/js/plugins-init/bs-daterange-picker-init.js"></script>
+    <!-- Clockpicker init -->
+    <script src="../../../assets/js/plugins-init/clock-picker-init.js"></script>
+    <!-- asColorPicker init -->
+    <script src="../../../assets/js/plugins-init/jquery-asColorPicker.init.js"></script>
+    <!-- Material color picker init -->
+    <script src="../../../assets/js/plugins-init/material-date-picker-init.js"></script>
+    <!-- Pickdate -->
+    <script src="../../../assets/js/plugins-init/pickadate-init.js"></script>
+	
+	  <script>
+		(function () {
+		  'use strict'
+
+		  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+		  var forms = document.querySelectorAll('.needs-validation')
+
+		  // Loop over them and prevent submission
+		  Array.prototype.slice.call(forms)
+			.forEach(function (form) {
+			  form.addEventListener('submit', function (event) {
+				if (!form.checkValidity()) {
+				  event.preventDefault()
+				  event.stopPropagation()
+				}
+
+				form.classList.add('was-validated')
+			  }, false)
+			})
+		})()
+	</script>
+
+<!-- Apex Chart -->
+
+	   
 </body>
 </html>

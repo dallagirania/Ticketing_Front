@@ -1,0 +1,21 @@
+
+.my_pagination /deep/ .ngx-pagination .current{
+   
+    margin-right: 7px;
+    border-radius: 1rem !important;
+
+    background: #ffa755;
+    border-color: #ffa755; 
+    font-family: "Montserrat";
+	text-align: center;
+}
+
+.my_pagination /deep/ .ngx-pagination :hover{
+    margin-right: 7px;
+    border-radius: 1rem !important;
+    background: #ffa755;
+    border-color: #ffa755; 
+   
+    color: #fff;
+  
+}

@@ -1,0 +1,11 @@
+.selectform{
+    height: 40px;
+    border-top: 1px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
+    border-left: 0px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8; }
+.selectform:hover,.selectform:focus, .selectform:active {
+      border-top: 1px solid #c8c8c8;
+      border-bottom: 1px solid #c8c8c8;
+      border-left: 0px solid #c8c8c8;
+      border-right: 0px solid #c8c8c8; }

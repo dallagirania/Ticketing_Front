@@ -1,0 +1,43 @@
+
+.my_pagination /deep/ .ngx-pagination .current{
+   
+    margin-right: 7px;
+    border-radius: 1rem !important;
+
+    background: #ffa755;
+    border-color: #ffa755; 
+    font-family: "Montserrat";
+	text-align: center;
+}
+
+.my_pagination /deep/ .ngx-pagination :hover{
+    margin-right: 7px;
+    border-radius: 1rem !important;
+    background: #ffa755;
+    border-color: #ffa755; 
+   
+    color: #fff;
+  
+}
+
+.recherche{
+    margin-left: 150px;
+    margin-bottom: 20px;
+    width: 500px;
+    padding:0 25px ;
+    background-color:  rgb(245, 247, 240);
+    border-radius: 25px  25px 25px 25px;
+    border: 2px solid;
+    box-shadow: 6px 4px 8px 4px;
+
+}
+.sty{  
+    
+    background-color: rgb(245, 247, 240);
+    width:400px;
+    height: 50px;
+    border:none;
+    outline: none;
+    padding:0 25px ;
+    border-radius: 25px  25px 25px 25px;
+}
